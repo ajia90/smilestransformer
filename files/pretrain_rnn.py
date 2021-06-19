@@ -21,6 +21,7 @@ EOS = 2
 SOS = 3
 MASK = 4
 
+
 class Encoder(nn.Module):
     def __init__(self, input_size, embed_size, hidden_size,
                  n_layers=1, dropout=0.5):
