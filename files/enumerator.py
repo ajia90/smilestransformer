@@ -59,7 +59,6 @@ class Iterator(object):
 
 
 
-
 class SmilesIterator(Iterator):
     """Iterator yielding data from a SMILES array.
 
