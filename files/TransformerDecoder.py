@@ -131,6 +131,7 @@ class TransformerDecoderLayer(Module):
         memory2 = self.linear2(self.dropout(self.activation(self.linear1(memory))))
         memory = memory + self.dropout3(memory2)
         memory = self.norm3(memory)
+        
         return memory
 
 
