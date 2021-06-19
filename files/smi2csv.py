@@ -2,6 +2,7 @@ import argparse
 import numpy as np
 import pandas as pd
 
+
 def main():
     parser = argparse.ArgumentParser(description='Convert smi file to csv file')
     parser.add_argument('--in_path', '-i', type=str, default='data/GDB/GDB08.smi', help='input file')
