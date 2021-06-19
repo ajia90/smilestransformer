@@ -80,6 +80,7 @@ class Vocab(TorchVocab):
         self.eos_index = 2
         self.sos_index = 3
         self.mask_index = 4
+        
         super().__init__(counter, specials=["<pad>", "<unk>", "<eos>", "<sos>", "<mask>"], max_size=max_size, min_freq=min_freq)
 
     # override用
