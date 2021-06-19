@@ -5,6 +5,7 @@ from rdkit import Chem
 from rdkit import rdBase
 rdBase.DisableLog('rdApp.*')
 
+
 # Split SMILES into words
 def split(sm):
     '''
