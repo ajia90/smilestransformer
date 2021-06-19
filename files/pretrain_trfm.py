@@ -154,6 +154,7 @@ def evaluate(model, test_loader, vocab):
         total_loss += loss.item()
     return total_loss / len(test_loader)
 
+
 def main():
     args = parse_arguments()
     assert torch.cuda.is_available()
